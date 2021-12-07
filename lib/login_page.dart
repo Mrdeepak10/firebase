@@ -68,8 +68,7 @@ class _LoginPageState extends State<LoginPage> {
                     padding: const EdgeInsets.symmetric(vertical: 16),
                     alignment: Alignment.center,
                     child: TextButton(
-                      onPressed: () {
-                      },
+                      onPressed: () {},
                       child: const Text("Verify number"),
                     )),
               ],

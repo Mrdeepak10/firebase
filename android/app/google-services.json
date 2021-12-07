@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "723374411713-3j30sp11rfdn48s0uka2h510nhh295h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.backyardpicaso.firebasecrud",
+            "certificate_hash": "e759e6104b3f1c3bce15f689d67367023d774bfd"
+          }
+        },
+        {
           "client_id": "723374411713-r0528gv9fmtvrsefebobp47rud21tn24.apps.googleusercontent.com",
           "client_type": 3
         }

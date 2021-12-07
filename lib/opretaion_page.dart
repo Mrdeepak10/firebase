@@ -18,7 +18,7 @@ class _FirebaseOperationState extends State<FirebaseOperation> {
 
   void fetchDb() async {
     var collection = FirebaseFirestore.instance.collection('Database');
-    var querySnapshot = await collection.get();-
+    var querySnapshot = await collection.get();
     for (var queryDocumentSnapshot in querySnapshot.docs) {
       Map<String, dynamic> data = queryDocumentSnapshot.data();
       var name = data['Name'];
@@ -45,7 +45,6 @@ class _FirebaseOperationState extends State<FirebaseOperation> {
 
   @override
   void initState() {
-    // TODO: implement initState
     fetchDb();
     super.initState();
   }

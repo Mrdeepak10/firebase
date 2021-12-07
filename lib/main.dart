@@ -2,7 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
+import 'package:google_sign_in/google_sign_in.dart';
+import 'google_signpage.dart';
 import 'login_page.dart';
 
 void main() async {
@@ -64,6 +65,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   decoration: const InputDecoration(labelText: 'Password'),
                   obscureText: true,
                 ),
+
                 Container(
                     padding: const EdgeInsets.symmetric(vertical: 16),
                     alignment: Alignment.center,
@@ -76,6 +78,19 @@ class _RegisterPageState extends State<RegisterPage> {
                         }));
                       },
                       child: const Text("Register"),
+                    )),
+                Container(
+                    padding: const EdgeInsets.symmetric(vertical: 16),
+                    alignment: Alignment.center,
+                    child: TextButton(
+                      onPressed: () {
+                        _register();
+                        Navigator.push(context,
+                            CupertinoPageRoute(builder: (BuildContext context) {
+                          return  GoogleSignInPage();
+                        }));
+                      },
+                      child: const Text("Sign-in with Google"),
                     )),
                 Container(
                   alignment: Alignment.center,
@@ -119,4 +134,5 @@ class _RegisterPageState extends State<RegisterPage> {
       _success = false;
     }
   }
+
 }
