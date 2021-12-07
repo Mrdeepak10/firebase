@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723374411713",
+    "project_id": "fir-demo-3ed72",
+    "storage_bucket": "fir-demo-3ed72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723374411713:android:57b19822865b6ecb986940",
+        "android_client_info": {
+          "package_name": "com.backyardpicaso.firebasecrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723374411713-r0528gv9fmtvrsefebobp47rud21tn24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOFZfLBqmiXHGWnZY-YSNc5RwMcXUZVSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723374411713-r0528gv9fmtvrsefebobp47rud21tn24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
